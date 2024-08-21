@@ -1,0 +1,101 @@
+body{
+    background-color: #ECFDFF;
+    min-height: 900px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    background-image: url('TEXTURE.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+.navbar-nav .nav-link {
+    color: #555;
+}
+.navbar-nav .nav-link.active {
+    color: #007bff;
+    font-weight: bold;
+}
+h1 {
+    margin-top: 2rem;
+    color: #000000;
+}
+hr {
+    border-top: 2px solid #abcbee;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}   
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.table {
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+button {
+    margin: 1rem 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a08e3b;
+}
+a.btn {
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+a.btn:hover {
+    background-color: #0056b3;
+}
+button{
+    background-color: #FDDE55;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+}
